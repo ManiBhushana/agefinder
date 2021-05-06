@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc107"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/datetext"
+        android:text="Today"
+        android:textSize="45sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/dobtext"
+        android:layout_below="@id/datetext"
+        android:text="Date of Birth"
+        android:textSize="45sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/agetext"
+        android:layout_below="@id/dobtext"
+        android:text="Age"
+        android:textSize="45sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/dobtn"
+        android:text="Enter your Birthday"
+        android:layout_below="@id/agetext"
+        android:padding="20dp"
+        android:layout_margin="65dp"
+        android:layout_centerInParent="true"
+        android:background="#ff0006"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/calbtn"
+        android:text="calculate age"
+        android:layout_below="@id/dobtn"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="#8bbe1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
